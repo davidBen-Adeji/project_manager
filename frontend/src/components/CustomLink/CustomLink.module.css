@@ -1,0 +1,10 @@
+.link {
+    position: relative;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.link:hover, .customLink:focus {
+    opacity: 1;
+}

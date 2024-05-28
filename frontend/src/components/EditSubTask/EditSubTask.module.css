@@ -1,0 +1,26 @@
+.title {
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .title:hover {
+    text-decoration: underline;
+  }
+  
+  .titleClicked {
+    opacity: 0.5;
+    /* cursor: not-allowed; */
+    text-decoration: line-through;
+  }
+  .titleClicked:hover {
+    text-decoration: line-through;
+  }
+  
+  .deleteTaskButton {
+    opacity: 0.95;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .deleteTaskButton:hover {
+    opacity: 100;
+  }
+  

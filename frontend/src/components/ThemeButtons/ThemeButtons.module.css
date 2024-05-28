@@ -1,0 +1,56 @@
+.buttons {
+    position: absolute;
+    right: 5%;
+    top: 18%;
+    display: flex;
+    gap: .5rem;
+}
+@media (min-width: 56.31125rem) {
+    .buttons {
+      top: 95%;
+    }
+  }
+
+.btn {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px;
+  background-color: white;
+}
+
+.btnGreen {
+  background: linear-gradient(
+    to bottom right,
+    var(--jade-500),
+    var(--jade-800)
+  );
+}
+
+.btnBlue {
+  background: linear-gradient(
+    to bottom right,
+    var(--mariner-400),
+    var(--mariner-800)
+  );
+}
+
+.btnOrange {
+  background: linear-gradient(
+    to bottom right,
+    var(--web-orange-500),
+    var(--web-orange-800)
+  );
+}
+
+.btnRed {
+  background: linear-gradient(
+    to bottom right,
+    var(--crimson-300),
+    var(--crimson-800)
+  );
+}
+
+.active {
+  border: 2px solid white;
+}

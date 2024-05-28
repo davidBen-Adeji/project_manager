@@ -1,0 +1,53 @@
+.userDropdown {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    z-index: 3;
+}
+
+@media (min-width: 56.31125rem) {
+    .userDropdown {
+        top: 5%;
+    }
+}
+
+.userButton {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.userButton:hover {
+    opacity: .8;
+}
+
+.userButton p {
+    font-size: 1.3rem;
+    background-color: white;
+    margin: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userDetails {
+    background-color: white;
+    padding: .5rem 1rem;
+    margin-top: 8px;
+    max-width: 21.25rem;
+}
+
+.userDetails p {
+    margin-top: 0;
+}
+
+.logoutBtn {
+    text-decoration: underline;
+}
+
+.logoutBtn:hover {
+    opacity: .8;
+}

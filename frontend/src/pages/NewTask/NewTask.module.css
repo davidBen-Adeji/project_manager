@@ -1,0 +1,39 @@
+.buttons {
+    position: absolute;
+    right: 2rem;
+    bottom: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  @media (min-width: 56.31125rem) {
+    .buttons {
+      right: 4rem;
+      bottom: 1.75rem;
+    }
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cancel {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  
+  .done {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .doneImg {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  

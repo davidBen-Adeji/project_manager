@@ -1,0 +1,423 @@
+:root {
+  /* jade */
+  --jade-50: #ebfef4;
+  --jade-100: #d0fbe3;
+  --jade-200: #a4f6cc;
+  --jade-300: #6aebb1;
+  --jade-400: #2fd891;
+  --jade-500: #0abf79;
+  --jade-600: #00a86b;
+  --jade-700: #007c52;
+  --jade-800: #036242;
+  --jade-900: #045038;
+  --jade-950: #012d21;
+
+  /* marine */
+  --mariner-50: #f0f8fe;
+  --mariner-100: #deeefb;
+  --mariner-200: #c5e3f8;
+  --mariner-300: #9cd1f4;
+  --mariner-400: #6eb6ec;
+  --mariner-500: #4c9ae5;
+  --mariner-600: #377fd9;
+  --mariner-700: #2d68c4;
+  --mariner-800: #2b56a2;
+  --mariner-900: #284a80;
+  --mariner-950: #1c2f4f;
+
+  /* orange */
+  --web-orange-50: #fffcea;
+  --web-orange-100: #fff5c5;
+  --web-orange-200: #ffec85;
+  --web-orange-300: #ffdb46;
+  --web-orange-400: #ffc81b;
+  --web-orange-500: #ffa600;
+  --web-orange-600: #e27d00;
+  --web-orange-700: #bb5602;
+  --web-orange-800: #984208;
+  --web-orange-900: #7c370b;
+  --web-orange-950: #481b00;
+
+  /* red */
+  --crimson-50: #fff0f2;
+  --crimson-100: #ffe3e4;
+  --crimson-200: #ffcbd1;
+  --crimson-300: #ffa0aa;
+  --crimson-400: #ff6b7e;
+  --crimson-500: #fb3855;
+  --crimson-600: #dc143c;
+  --crimson-700: #c50b34;
+  --crimson-800: #a50c33;
+  --crimson-900: #8d0e33;
+  --crimson-950: #4f0217;
+}
+
+.mb-0\.64 {
+  margin-bottom: 0.64rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.list {
+  position: relative;
+  margin-top: 2rem;
+  padding: 1.25rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.delete-btn {
+  width: fit-content;
+  justify-self: end;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+  transition: all linear 200ms;
+}
+.checkbox:hover {
+  transform: scale(105%);
+}
+
+.span {
+  display: block;
+  width: 70%;
+  height: 70%;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.checkbox-0 {
+  position: absolute;
+  opacity: 0;
+  top: 3rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.blue .text {
+  color: var(--mariner-900);
+}
+
+.orange .text {
+  color: var(--web-orange-900);
+}
+
+.red .text {
+  color: var(--crimson-900);
+}
+
+.green .customCheckbox {
+  border: 1px solid var(--jade-700);
+}
+
+.blue .customCheckbox {
+  border: 1px solid var(--mariner-600);
+}
+
+.orange .customCheckbox {
+  border: 1px solid var(--web-orange-700);
+}
+
+.red .customCheckbox {
+  border: 1px solid var(--crimson-900);
+}
+
+.green .customSpan {
+  background: linear-gradient(
+    to bottom right,
+    var(--jade-200),
+    var(--jade-400)
+  );
+}
+
+.blue .customSpan {
+  background: linear-gradient(
+    to bottom right,
+    var(--mariner-400),
+    var(--mariner-600)
+  );
+}
+
+.orange .customSpan {
+  background: linear-gradient(
+    to bottom right,
+    var(--web-orange-500),
+    var(--web-orange-700)
+  );
+}
+
+.red .customSpan {
+  background: linear-gradient(
+    to bottom right,
+    var(--crimson-400),
+    var(--crimson-600)
+  );
+}
+
+.itemGroup {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.green.headerBg {
+  background: linear-gradient(
+    to bottom right,
+    var(--jade-500),
+    var(--jade-800)
+  );
+}
+
+.blue.headerBg {
+  background: linear-gradient(
+    to bottom right,
+    var(--mariner-400),
+    var(--mariner-800)
+  );
+}
+
+.orange.headerBg {
+  background: linear-gradient(
+    to bottom right,
+    var(--web-orange-500),
+    var(--web-orange-800)
+  );
+}
+
+.red.headerBg {
+  background: linear-gradient(
+    to bottom right,
+    var(--crimson-300),
+    var(--crimson-800)
+  );
+}
+
+.green .length, .green .user, .green .user-btn {
+  color: var(--jade-600);
+}
+
+.blue .length, .blue .user, .blue .user-btn {
+  color: var(--mariner-600);
+}
+
+.orange .length, .orange .user, .orange .user-btn {
+  color: var(--web-orange-600);
+}
+
+.red .length, .red .user, .red .user-btn {
+  color: var(--crimson-600);
+}
+
+.green.bg {
+  background-color: white;
+}
+
+.blue.bg {
+  background-color: var(--mariner-50);
+}
+
+.orange.bg {
+  background-color: var(--web-orange-50);
+}
+
+.red.bg {
+  background-color: var(--crimson-50);
+}
+
+.green .taskTitleInputBorder {
+  border-bottom: 1px solid var(--jade-500);
+}
+
+.blue .taskTitleInputBorder {
+  color: var(--mariner-900);
+  border-bottom: 1px solid var(--mariner-500);
+}
+
+.orange .taskTitleInputBorder {
+  color: var(--web-orange-900);
+  border-bottom: 1px solid var(--web-orange-500);
+}
+
+.red .taskTitleInputBorder {
+  color: var(--crimson-900);
+  border-bottom: 1px solid var(--crimson-400);
+}
+
+.green .btn {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--jade-400),
+    var(--jade-600)
+  ) !important;
+}
+.green .btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--jade-500),
+    var(--jade-700)
+  ) !important;
+}
+
+.blue .btn {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--mariner-400),
+    var(--mariner-600)
+  ) !important;
+}
+.blue .btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--mariner-500),
+    var(--mariner-700)
+  ) !important;
+}
+
+.orange .btn {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--web-orange-400),
+    var(--web-orange-600)
+  ) !important;
+}
+.orange .btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--web-orange-500),
+    var(--web-orange-700)
+  ) !important;
+}
+
+.red .btn {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--crimson-300),
+    var(--crimson-500)
+  ) !important;
+}
+.red .btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--crimson-400),
+    var(--crimson-600)
+  ) !important;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.shaking-element {
+  animation: shake 0.5s ease-in-out;
+}
+
+.green .spinner {
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 5px solid var(--jade-50);
+  border-top: 5px solid var(--jade-600);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.blue .spinner {
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 5px solid white;
+  border-top: 5px solid var(--mariner-600);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+.orange .spinner {
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 5px solid white;
+  border-top: 5px solid var(--web-orange-600);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+.red .spinner {
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 5px solid white;
+  border-top: 5px solid var(--crimson-600);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

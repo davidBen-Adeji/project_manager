@@ -1,0 +1,54 @@
+.signup label,
+.signup input {
+  display: block;
+}
+.signup input {
+  padding: .625rem;
+  margin-top: .625rem;
+  margin-bottom: 1.25rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form.signup button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: .625rem;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: .625rem;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 1.25rem 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+/* auth forms */
+form.signup {
+  width: 90%;
+  max-width: 25rem;
+  margin: 2.5rem auto;
+  padding: 1.25rem;
+  background: #fff;
+  border-radius: 4px;
+}
+
+
+.p {
+  font-size: .9rem;
+  transform: translateY(-1.875rem);
+}
+
+.link {text-decoration: underline;}
+.link:hover{
+  color: blue;
+}

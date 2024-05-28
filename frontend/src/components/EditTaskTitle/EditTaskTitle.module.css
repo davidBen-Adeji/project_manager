@@ -1,0 +1,15 @@
+.projectTitleInput {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.projectTitleInputText {
+    background: none;
+    width: 75%;
+    padding: 0.5rem 1rem;
+    text-transform: capitalize;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
