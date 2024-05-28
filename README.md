@@ -1,4 +1,4 @@
-# TODO LIST APP. (CREATED USING THE MERN STACK)
+# PROJECT MANAGER APP. (CREATED USING THE MERN STACK)
 
 A simple todo list app to add, edit, and delete tasks. Created using the MERN stack
 
