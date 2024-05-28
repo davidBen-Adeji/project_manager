@@ -4,7 +4,7 @@ A simple todo list app to add, edit, and delete tasks. Created using the MERN st
 
 ## Live Demo
 
-This app is still a work in progress. https://task-manager-app-client.onrender.com/
+This app is still a work in progress. [Project Manager Site](https://project-manager-client-9tmk.onrender.com/)
 
 ## Table of Contents
 
