@@ -1,0 +1,24 @@
+.link {
+  text-transform: capitalize;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.taskTitleLinkClicked {
+  opacity: 0.5;
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+.taskTitleLinkClicked:hover {
+  text-decoration: line-through;
+}
+
+.deleteTaskButton {
+  opacity: 0.95;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.deleteTaskButton:hover {
+  opacity: 100;
+}

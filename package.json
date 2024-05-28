@@ -1,0 +1,16 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "A simple task manager app",
+  "scripts": {
+    "install-app": "cd backend && npm install && cd \"../frontend\" && npm install",
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node server.js",
+    "install-client": "cd frontend && npm install",
+    "build-client": "cd frontend && npm run build",
+    "start-client": "cd frontend && npm run start"
+  },
+  "keywords": [],
+  "author": "David Ben-Adeji",
+  "license": "MIT"
+}

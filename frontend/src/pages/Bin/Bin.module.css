@@ -1,0 +1,52 @@
+.title {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .titleHeader {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: .75rem;
+  }
+
+  .bigBinImg {
+    opacity: 0.5;
+    width: 50%;
+    height: 50%;
+    margin: 7rem auto 0;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    right: 2.5rem;
+    bottom: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 9999px;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  @media (min-width: 56.31125rem) {
+    .deleteButton {
+      right: 4rem;
+      bottom: 1.75rem;
+    }
+  }
+  
+  .binImg {
+    width: 65%;
+    height: 65%;
+  }
+
+  .spin {
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  

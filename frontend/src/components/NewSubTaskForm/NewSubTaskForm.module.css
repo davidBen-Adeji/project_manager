@@ -1,0 +1,41 @@
+.form {
+  position: relative;
+  width: 65%;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 2.5rem;
+}
+
+.inputGroupText {
+  background: none;
+  width: 75%;
+  text-transform: capitalize;
+  padding: 1rem 0.95rem 0.75rem;
+  /* outline: 0; */
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  font-size: 1rem;
+}
+
+.inputGroupBtn {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 56.31125rem) {
+  .inputGroupBtn {
+    width: 25%;
+  }
+}
+
+.inputGroupImg {
+  width: 50%;
+  height: 50%;
+}
